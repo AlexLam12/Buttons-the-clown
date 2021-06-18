@@ -1,19 +1,23 @@
 {
-  "posts": [
+  "parents": [],
+  "requests": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "parentName": "bob",
+      "childName": "chris",
+      "attendance": "20",
+      "address": "123 houce",
+      "eventDate": "2021-06-25",
+      "timeRequired": "4",
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "parentName": "fred",
+      "childName": "ty",
+      "attendance": "7",
+      "address": "456 place",
+      "eventDate": "2021-06-22",
+      "timeRequired": "3",
+      "id": 2
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
